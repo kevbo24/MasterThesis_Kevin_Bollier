@@ -14,3 +14,7 @@ Finally, the required files are defined for training and validation. These are l
 ![image](https://user-images.githubusercontent.com/36130935/171127652-70a261e5-c2fe-4ae7-8e35-e9b09d30098a.png)
 
 Note: A PPO model with inside information (backshift 7 days and backshift 24 hours) is based on the algorithm in the env_V36_PPO script. In addition, the correct data set has to be selected (df_processed_benchmark_backshift_7days or df_processed_benchmark_backshift_24). A different script name has to be used accordingly for A2C or DQN models.
+
+# Trained models and predictions
+
+The "models" folder contains all models and predictions that were described in the study document.
