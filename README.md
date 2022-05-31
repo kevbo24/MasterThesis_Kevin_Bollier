@@ -17,4 +17,4 @@ Note: A PPO model with inside information (backshift 7 days and backshift 24 hou
 
 # Trained models and predictions
 
-The "models" folder contains all models and predictions that were described in the study document.
+The "models" folder contains all models and predictions that were described in the study paper.
