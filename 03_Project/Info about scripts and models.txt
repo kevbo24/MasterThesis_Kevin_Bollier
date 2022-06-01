@@ -1,0 +1,74 @@
+Experiment 1 (V20_3) – The account value approach
+	Scripts:
+		- env_V20_3_A2C
+		- env_V20_3_DQN
+		- env_V20_3_PPO
+	Models:
+		all with "V20_3" in their name
+
+Experiment 2 (V21_3) – The trade profit approach
+	Scripts:
+		- env_V21_3_A2C
+		- env_V21_3_DQN
+		- env_V21_3_PPO
+	Models:
+		all with "V21_3" in their name
+
+Experiment 3 (V30_11) – The rule-based approach
+	Scripts:
+		- env_V30_11_A2C
+		- env_V30_11_DQN
+		- env_V30_11_PPO
+	Models:
+		all with "V30_11" in their name
+
+Experiment 4 (V36 and V37) – The price development approach
+	Scripts:
+		- env_V36_A2C
+		- env_V36_DQN
+		- env_V36_PPO
+		- env_V37_A2C
+		- env_V37_DQN
+		- env_V37_PPO
+	Models:
+		all with either "V36" or "V37" in their names
+
+Experiment 4 - Hyperparameter tuning: PPO method (V36_tune):
+	Scripts:
+		- env_V36_PPO_tune
+	Models:
+		all with "V36" and "tune  in their name
+
+Effect of Twitter Tweets, Google Trends and stock index S&P500:
+	Scripts:
+		- env_V38_A2C_without_add_info_source
+		- env_V38_DQN_without_add_info_source
+		- env_V38_PPO_without_add_info_source
+		- env_V38_PPO_without_add_info_source_tune
+	Models:
+		all with "V38" in their name
+
+Insider Trading:
+	Scripts:
+		- env_V36_A2C
+		- env_V36_DQN
+		- env_V36_PPO
+		Require adjustment of data source in the main script, for example:
+		- df_train = pd.read_csv('data/data_processed_extended/df_processed_train_backshift_7days.csv', index_col = 0)
+
+	Models:
+		all with "V36" and "shifted" in their name
+
+Influence of the time window during training:
+	Scripts:
+		- env_V39_A2C_train_window_1month
+		- env_V39_DQN_train_window_1month
+		- env_V39_PPO_train_window_1month
+		- env_V39_A2C_train_window_6month
+		- env_V39_DQN_train_window_6month
+		- env_V39_PPO_train_window_6month
+
+	Models:
+		all with "V39" in their name (V39 = 1-month, V39_1 = 6-months)
+
+
